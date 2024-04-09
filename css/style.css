@@ -1,0 +1,100 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icono-usuario {
+    font-size: 2.5rem; /* Ajusta el tamaño del icono según tus preferencias */
+    color: white; /* Establece el color del icono en blanco */
+  }
+ 
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel {
+    max-width: 1200px; /* Ajusta el tamaño según tus necesidades */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+  }
+  
+  
+  
+.carousel-item img{
+    height: 700px;
+    padding: 15px;
+}
+/*
+.contenedorFooter{
+    width: 100%;
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    flex-direction: row;
+}
+
+.boxFooter{
+    border: solid rgb(231, 231, 231);
+    width: 33.3%;
+    text-align: center;
+    padding: 20px;
+}
+*/
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+#inputFoto {
+   display: none;
+}
+
+.boxFooter img{
+    width: 30px;
+    height: 30px;
+}
+
+.boxItems{
+    display: flex;
+    align-items: center;
+}
+
+.boxItems img{
+    padding-right: 0px;
+}
+
+.col{
+    background-color: rgb(170, 170, 170);
+    border: solid rgb(231, 231, 231);
+    height: 190px;
+    padding: 15px;
+    
+}
+
+.alo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.container img{
+    width: 275px;
+    height: 275px;
+    align-items: center;
+}
+.lel img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+
+}
+
+small{
+    color: red;
+    font-weight: bolder;
+}
+
